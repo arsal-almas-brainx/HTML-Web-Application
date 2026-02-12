@@ -12,18 +12,29 @@ body{
 .footer-image{
     margin-bottom: -5px;
 }
-.butterfly-image, .html-image{
+.butterfly-image {
      width: 300px;
      height: 200px;
      border: 5px solid black;
      float: right;
 }
-.sea-image, .java-image{
+.html-image{
+    width: 300px;
+    height: 225px;
+    float: right;
+}
+.sea-image{
      width: 300px;
      height: 200px;
      border: 5px solid black;
      float: left;
 
+}
+.java-image{
+    width: 300px;
+    height: 195px;
+    float: left;
+    margin-right: 2px;
 }
 .centerr{
     text-align: center;
@@ -35,11 +46,13 @@ body{
 .image-gallery{
     display: grid;
     grid-template-columns: 25% 25% 25% 25%;
+    width: 74%;
+    margin: auto;
 }
 .gallery-image{
     border: 5px solid blue;
-    height: 200px;
-    width: 265px;
+    height: 185px;
+    width: 245px;
     margin: 5px;
 }
 
